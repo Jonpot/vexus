@@ -1,0 +1,9 @@
+{
+  "cssTheme": "ITS Theme",
+  "enabledCssSnippets": [
+    "Theme - All Alternate Themes",
+    "supercharged-links-gen"
+  ],
+  "baseFontSize": 17,
+  "translucency": false
+}

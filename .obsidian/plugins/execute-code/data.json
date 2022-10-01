@@ -1,0 +1,17 @@
+{
+  "timeout": 10000,
+  "nodePath": "node",
+  "nodeArgs": "",
+  "pythonPath": "C:\\Users\\jonat\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "pythonArgs": "",
+  "pythonEmbedPlots": true,
+  "shellPath": "bash",
+  "shellArgs": "",
+  "shellFileExtension": "sh",
+  "groovyPath": "groovy",
+  "groovyArgs": "",
+  "groovyFileExtension": "groovy",
+  "maxPrologAnswers": 15,
+  "pythonPathLaptop": "C:\\Users\\jonat\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "pythonPathPC": "C:\\Users\\jonat\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+}

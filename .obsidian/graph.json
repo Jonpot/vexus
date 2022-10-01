@@ -1,0 +1,72 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Naxia",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Parapraxis/The Promise of Treasure\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Parapraxis/The Road to Gloomwind\"",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"Parapraxis\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"Septus Somnis\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Global",
+      "color": {
+        "a": 1,
+        "rgb": 8671968
+      }
+    },
+    {
+      "query": "path:\"Fangs of the Shinobi\"",
+      "color": {
+        "a": 1,
+        "rgb": 16529663
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.02370003758927,
+  "lineSizeMultiplier": 0.597298367929013,
+  "collapse-forces": true,
+  "centerStrength": 0.601491041222904,
+  "repelStrength": 16.6808670592658,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.0831742783592755,
+  "close": true
+}

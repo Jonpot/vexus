@@ -1,0 +1,1409 @@
+{
+  "monsters": [
+    [
+      "Dragonguard Warrior",
+      {
+        "image": null,
+        "name": "Dragonguard Warrior",
+        "source": "SeptusSomnis",
+        "type": "humanoid",
+        "subtype": "",
+        "size": "medium",
+        "alignment": "lawful evil",
+        "hp": "16",
+        "hit_dice": "3d8 + 3",
+        "ac": "",
+        "speed": "30 ft.",
+        "stats": [
+          "11",
+          "14",
+          "12",
+          "11",
+          "13",
+          "11"
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "",
+        "saves": [],
+        "skillsaves": [
+          {
+            "nature": 2
+          },
+          {
+            "perception": 4
+          },
+          {
+            "stealth": 6
+          },
+          {
+            "survival": 4
+          }
+        ],
+        "senses": "passive Perception 15",
+        "languages": "any one language (usually Common)",
+        "cr": "1/2",
+        "traits": [
+          {
+            "name": "Keen Hearing and Sight",
+            "desc": "The Dragonguard Warrior has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The Dragonguard Warrior makes two melee attacks or two ranged attacks."
+          },
+          {
+            "name": "Shortsword",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+          },
+          {
+            "name": "Longbow",
+            "desc": "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+          }
+        ]
+      }
+    ],
+    [
+      "Sabbar",
+      {
+        "image": null,
+        "name": "Sabbar",
+        "source": "SeptusSomnis",
+        "type": "humanoid",
+        "subtype": "",
+        "size": "medium",
+        "alignment": "lawful good",
+        "hp": "120",
+        "hit_dice": "16d8 + 48",
+        "ac": "",
+        "speed": "30 ft.",
+        "stats": [
+          "15",
+          "13",
+          "17",
+          "14",
+          "16",
+          "18"
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "",
+        "saves": [
+          {
+            "wisdom": 6
+          },
+          {
+            "charisma": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "athletics": 5
+          },
+          {
+            "medicine": 6
+          }
+        ],
+        "senses": "passive Perception 13",
+        "languages": "Draconic",
+        "cr": "5",
+        "traits": [
+          {
+            "name": "Divine Health",
+            "desc": "Sabbar is immune to disease."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Sabbar makes two melee attacks."
+          },
+          {
+            "name": "Holy Avenger",
+            "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage when used with two hands. If the target is a fiend or an undead it takes an extra 11 (2d10) radiant damage."
+          },
+          {
+            "name": "Longbow",
+            "desc": "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+          },
+          {
+            "name": "Sense Alignment",
+            "desc": "Sabbar chooses one creature he can see within 60 feet of him and determines its alignment, as long as the creature isn't hidden from divination magic by a spell or other magical effect."
+          }
+        ]
+      }
+    ],
+    [
+      "Jewel Wasp Swarm",
+      {
+        "name": "Jewel Wasp Swarm",
+        "hp": 60,
+        "ac": 14,
+        "stats": [
+          3,
+          14,
+          14,
+          5,
+          10,
+          2
+        ],
+        "saves": [
+          {
+            "dex": 5
+          },
+          {
+            "wis": 3
+          }
+        ],
+        "cr": 7,
+        "damage_resistances": "piercing, slashing, bludgeoning",
+        "languages": null,
+        "traits": [
+          {
+            "name": "Sentinel Swarm.",
+            "desc": "Whenever a creature leaves the swarm's space, it provokes an opportunity attack from the swarm."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack.",
+            "desc": "The swarm makes one swarm of bites and one swarm of stings attack."
+          },
+          {
+            "name": "Swarm of Bites (normal).",
+            "desc": "targets each creature whose space the swarm occupies; +7 to hit; 4d6 + 3 piercing damage, or half damage on a miss."
+          },
+          {
+            "name": "Swarm of Bites (bloodied).",
+            "desc": "targets each creature whose space the swarm occupies; +7 to hit; 2d6 + 3 piercing damage, or half damage on a miss."
+          },
+          {
+            "name": "Swarm of Stings (normal).",
+            "desc": "targets each creature whose space the swarm occupies; +7 to hit; 2d8 + 3 piercing damage, or half damage on a miss. On a hit, the target must succeed on a DC 16 Constitution saving throw saving throw or be subjected to one dose of Huallitzli."
+          },
+          {
+            "name": "Swarm of Stings (bloodied).",
+            "desc": "targets each creature whose space the swarm occupies; +7 to hit; 1d8 + 3 piercing damage, or half damage on a miss. On a hit, the target must succeed on a DC 16 Constitution saving throw saving throw or be subjected to one dose of Huallitzli."
+          }
+        ]
+      }
+    ],
+    [
+      "Vinesnare Hunter",
+      {
+        "name": "Vinesnare Hunter",
+        "size": "Medium",
+        "type": "plant,",
+        "alignment": "unaligned",
+        "ac": 14,
+        "hp": 75,
+        "speed": "20 feet",
+        "stats": [
+          16,
+          18,
+          14,
+          3,
+          10,
+          3
+        ],
+        "saves": null,
+        "skillsaves": [
+          {
+            "stealth": 10
+          },
+          {
+            "perception": 3
+          }
+        ],
+        "condition-immunities": "sleep",
+        "senses": "passive perception 13",
+        "cr": 9,
+        "traits": [
+          {
+            "name": "Pollen resistance",
+            "desc": "The plant has resistance to all pollen attacks from other plants."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The plant makes two vine attacks."
+          },
+          {
+            "name": "Vine",
+            "desc": "+6 to hit; 3d8 + 4 bludgeoning damage, and the target must succeed on a contested grapple check, or be grappled by the plant. The flower can automatically deal this damage to a creature it has grappled, no attack roll necessary. The plant can have up to 3 creatures grappled at once."
+          }
+        ]
+      }
+    ],
+    [
+      "Lurching Rotflower",
+      {
+        "name": "Lurching Rotflower",
+        "size": "Medium",
+        "type": "plant,",
+        "alignment": "unaligned",
+        "ac": 14,
+        "hp": 75,
+        "speed": "20 feet",
+        "stats": [
+          16,
+          12,
+          14,
+          3,
+          10,
+          3
+        ],
+        "saves": null,
+        "skillsaves": [
+          {
+            "stealth": 8
+          },
+          {
+            "perception": 3
+          }
+        ],
+        "condition-immunities": "sleep",
+        "senses": "passive perception 13",
+        "cr": 9,
+        "traits": [
+          {
+            "name": "Rotting Stench",
+            "desc": "Each creature within 15 feet of the Rotflower must roll a DC 16 Constitution saving throw at the beginning of their turn. On a failure, they have disadvantage on attack rolls this turn. If a creature succeeds on the saving throw twice in a row successfully, they are immune to this effect for 1 hour. Creatures that enjoy rotting flesh or cannot smell are immune to this effect."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The flower makes two vine attacks, then a pollen blast attack (if it is charged)"
+          },
+          {
+            "name": "Vine",
+            "desc": "+6 to hit; 1d10 + 3 bludgeoning damage, and the target must succeed on a contested grapple check, or be grappled by the plant. The flower can automatically deal this damage to a creature it has grappled, no attack roll necessary."
+          },
+          {
+            "name": "Pollen Blast (recharge 5,6)",
+            "desc": "Each creature within 15 feet of the rotflower must succeed on a Dexterity saving throw of DC 16 or take 4d8 necrotic damage. Half damage on a success."
+          }
+        ]
+      }
+    ],
+    [
+      "Dread Devourer Vestress",
+      {
+        "name": "Dread Devourer Vestress",
+        "size": "Large",
+        "type": "undead,",
+        "subtype": null,
+        "alignment": "unaligned",
+        "ac": 15,
+        "hp": 200,
+        "speed": 30,
+        "stats": [
+          16,
+          15,
+          14,
+          18,
+          13,
+          8
+        ],
+        "saves": [
+          {
+            "constitution": 6
+          },
+          {
+            "intelligence": 8
+          },
+          {
+            "wisdom": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 8
+          },
+          {
+            "History": 8
+          },
+          {
+            "Insight": 5
+          },
+          {
+            "Nature": 8
+          },
+          {
+            "Perception": 5
+          },
+          {
+            "Religion": 8
+          },
+          {
+            "Survival": 5
+          }
+        ],
+        "damage_vulnerabilities": null,
+        "damage_resistances": "psychic, necrotic, poison; piercing, slashing and bludgeoning from non-magical weapons",
+        "damage_immunities": null,
+        "condition_immunities": "charmed, frightened",
+        "senses": "passive perception 15, darkvision 60 ft",
+        "languages": "Common, Infernal, Liameni, Rhysan, Ulsterferian",
+        "cr": 16,
+        "traits": [
+          {
+            "name": "Assimilated Resiliency.",
+            "desc": "The diversity of biomass that Vestress has incorporated is vast; so vast, in fact, that Vestress can easily shrug off most afflictions and extreme conditions. They have advantage on all Constitution saving throws, resistance to poison damage, and can cast the spell Absorb Elements twice a day."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Ensnaring Tendrils.",
+            "desc": "Vestress unleashes a tendril of biomass to ensnare their prey. This attack targets one creature up to 30 feet from Vestress. +8 to hit; 1d8+3 bludgeoning damage, and the target must succeed on a DC 17 Strength saving throw or be restrained."
+          },
+          {
+            "name": "Hunter's Mark.",
+            "desc": "As much as they would like, Vestress can (innately) cast the spell Hunter's Mark."
+          },
+          {
+            "name": "Adaptive Tactics.",
+            "desc": "Vestress searches for ways to overcome a troublesome foe's defenses. One creature who has shown resistance to Vestress' attacks must roll a Deception check contested with Vestress' Insight check. If Vestress wins, they ignore the creature's resistances for the next 24 hours."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Legendary Actions.",
+            "desc": "Vestress has 3 legendary actions per round."
+          },
+          {
+            "name": "Ensnaring Tendrils.",
+            "desc": "Vestress can spend one legendary action to use their Ensnaring Tendrils attack."
+          },
+          {
+            "name": "Ray of Enfeeblement.",
+            "desc": "Vestress can spend one legendary actions to (innately) cast the spell Ray of Enfeeblement."
+          },
+          {
+            "name": "No Escape.",
+            "desc": "Vestress pulls a creature restrained by them 15 feet towards them."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Life-Draining Claws.",
+            "desc": "Vestress makes two attacks with their claws. +8 to hit; 2d6+3 slashing damage plus 1d8 necrotic damage per hit. Vestress regains HP equal to the amount of necrotic damage dealt. The target is restrained until escape DC 16."
+          },
+          {
+            "name": "Dissolve Psyche.",
+            "desc": "Vestress attempts to break down the mental defenses of creatures they have restrained, in order to easily assimilate their computing power into their own. Each creature restrained by Vestress must succeed on a DC 17 Intelligence saving throw or take (7d6) psychic damage and have their Intelligence score reduced by 2. This effect is permanent, until the synaptic pathways are healed by one of the following spells: Greater Restoration, Heal, Wish. Additionally, Vestress gains advantage on its next attack roll or saving throw. On a success, half damage, and no other effects."
+          },
+          {
+            "name": "Absorb Biomass.",
+            "desc": "Vestress assimilates the neural biomass of a dead creature or a dying unconscious creature within 5 feet of them. Corpses subject to the spell Gentle Repose are immune to this effect. If the creature is dying, it must roll a Constitution saving throw of DC 15. If the creature has 2 successes on their death saves, this saving throw has advantage. If the creature has 2 or more failures on their death saves, this saving throw has disadvantage. On a failed save, the creature instantly dies, and all of its neural biomass is absorbed by Vestress. If the creature had an Intelligence of 18 or higher (not counting any effects imposed by Vestress), Vestress' Intelligence permanently increases by 1 (this can exceed 20). Vestress regains hit points equal to half of the absorbed creature's maximum HP. Depending on the absorbed creature, Vestress could gain new traits and skill proficiencies at the DMs' discretions."
+          },
+          {
+            "name": "Circle of Death.",
+            "desc": "Twice per day, Vestress can (innately) cast the spell Circle of Death."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Absorb Elements",
+            "desc": "Twice per day, Vestress can (innately) cast the spell Absorb Elements."
+          }
+        ]
+      }
+    ],
+    [
+      "Ashenmist Guardian",
+      {
+        "name": "Ashenmist Guardian",
+        "size": "Medium",
+        "type": "construct (warforged)",
+        "alignment": "lawful neutral",
+        "ac": 18,
+        "hp": 87,
+        "speed": "30 ft.",
+        "stats": [
+          18,
+          8,
+          18,
+          8,
+          12,
+          6
+        ],
+        "damage_resistances": "cold; piercing, slashing, and bludgeoning from nonmagical weapons",
+        "damage_immunities": "poison, necrotic",
+        "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+        "senses": "darkvision 120 ft; vision through Ashenmist fog; passive perception 10",
+        "languages": "Common, Liameni",
+        "cr": 10,
+        "traits": [
+          {
+            "name": "Innate Spellcasting.",
+            "desc": "The Guardian can innately cast Misty Step, Gaseous Form, and Fog Cloud while in Ashenmist."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack.",
+            "desc": "The Guardian makes two melee or two ranged attacks."
+          },
+          {
+            "name": "Ashenmist Longsword.",
+            "desc": "+8 to hit; 2d8 + 4 slashing damage."
+          },
+          {
+            "name": "Javelin.",
+            "desc": "Ranged 60/120; +8 to hit; 1d6 + 4 piercing damage."
+          }
+        ]
+      }
+    ],
+    [
+      "Ashenmist Steed",
+      {
+        "name": "Ashenmist Steed",
+        "monster": "Warhorse",
+        "ac": 17,
+        "hp": 65,
+        "cr": 9
+      }
+    ],
+    [
+      "Ashenmist Gorgon",
+      {
+        "name": "Ashenmist Gorgon",
+        "monster": "Gorgon",
+        "cr": 12,
+        "traits": [
+          {
+            "name": "Innate Spellcasting.",
+            "desc": "The gorgon can innately cast the spells Misty Step, Gaseous Form, and Fog Cloud at will while in Ashenmist."
+          },
+          {
+            "name": "Stoic Duty.",
+            "desc": "While bloodied, the gorgon deals an additional 2d8 cold damage with its melee weapon attacks."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Laser Eyes (only while bloodied, recharge [6]).",
+            "desc": "The gorgon shoots superman-like lasers out of its eyes. Each creature in a 90-foot line must succeed on a DC 17 Dexterity saving throw or take 10d6 radiant damage (half damage on a success)."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Fury of the Forge.",
+            "desc": "Upon being first bloodied, the Gorgon's Laser Eyes attack charges, and spends its reaction to use the attack immediately."
+          }
+        ]
+      }
+    ],
+    [
+      "Ashenmist Hound",
+      {
+        "name": "Ashenmist Hound",
+        "size": "medium",
+        "type": "construct,",
+        "alignment": "unaligned",
+        "ac": 17,
+        "hp": 65,
+        "stats": [
+          16,
+          14,
+          14,
+          2,
+          14,
+          7
+        ],
+        "cr": 10,
+        "traits": [
+          {
+            "name": "Innate Spellcasting.",
+            "desc": "The hound can innately cast the spells Misty Step, Gaseous Form, and Fog Cloud at will while in Ashenmist."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack.",
+            "desc": "The hound makes a bite and a claw attack, or a claw attack and frost breath if it is charged."
+          },
+          {
+            "name": "Bite.",
+            "desc": "+7 to hit; 2d8 + 3 piercing damage."
+          },
+          {
+            "name": "Claws.",
+            "desc": "+7 to hit; 2d6 + 3 slashing damage."
+          },
+          {
+            "name": "Frost Breath (recharge 5,6).",
+            "desc": "Each creature in a 15-foot cone must succed a DC 16 Dexterity saving throw or take 5d8 cold damage (half damage on a miss)"
+          }
+        ]
+      }
+    ],
+    [
+      "Elite Ashenmist Guardian",
+      {
+        "name": "Elite Ashenmist Guardian",
+        "size": "Medium",
+        "type": "construct (warforged)",
+        "alignment": "lawful neutral",
+        "ac": 19,
+        "hp": 130,
+        "speed": "30 ft.",
+        "stats": [
+          22,
+          8,
+          18,
+          8,
+          12,
+          6
+        ],
+        "damage_resistances": "cold; piercing, slashing, and bludgeoning from nonmagical weapons",
+        "damage_immunities": "poison, necrotic",
+        "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+        "senses": "darkvision 120 ft; vision through Ashenmist fog; passive perception 10",
+        "languages": "Common, Liameni",
+        "cr": 13,
+        "traits": [
+          {
+            "name": "Innate Spellcasting.",
+            "desc": "The Elite Guardian can innately cast Misty Step, Gaseous Form, and Fog Cloud while in Ashenmist."
+          },
+          {
+            "name": "Brutal Critical.",
+            "desc": "The Elite Guardian scores a critical hit on a roll of 19-20."
+          },
+          {
+            "name": "Elite Tactics.",
+            "desc": "The Guardian has 3 superiority dice, which are d10s. It can use the following maneuvers: Trip Attack, Goading Attack, Riposte, Feinting Attack."
+          },
+          {
+            "name": "Sentinel.",
+            "desc": "You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits. When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn. Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach. When a creature makes an attack against a target other than you (and that target doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack.",
+            "desc": "The Guardian makes two melee or two ranged attacks."
+          },
+          {
+            "name": "Ashenmist Greatsword.",
+            "desc": "+9 to hit; 4d6 + 6 slashing damage."
+          },
+          {
+            "name": "Javelin.",
+            "desc": "Ranged 60/120; +9 to hit; 1d6 + 4 piercing damage."
+          },
+          {
+            "name": "Frost Breath (recharge 5,6)",
+            "desc": "Each creature within a 30 foot cone of the Elite Guardian must succeed on a DC 16 Dexterity saving throw or take 5d8 cold damage."
+          }
+        ]
+      }
+    ],
+    [
+      "Gharmonde the Reforged",
+      {
+        "name": "Gharmonde the Reforged",
+        "size": "Large",
+        "type": "construct",
+        "subtype": null,
+        "alignment": "Lawful neutral",
+        "ac": 20,
+        "hp": 250,
+        "speed": 40,
+        "stats": [
+          18,
+          16,
+          16,
+          20,
+          18,
+          18
+        ],
+        "saves": [
+          {
+            "intelligence": 11
+          },
+          {
+            "dexterity": 9
+          },
+          {
+            "wisdom": 10
+          },
+          {
+            "constitution": 9
+          }
+        ],
+        "skillsaves": [
+          {
+            "Perception": 10
+          },
+          {
+            "Insight": 10
+          },
+          {
+            "Arcana": 11
+          }
+        ],
+        "damage_vulnerabilities": null,
+        "damage_resistances": "force; psychic; cold; piercing, slashing and bludgeoning from non-magical sources",
+        "damage_immunities": "poison, necrotic",
+        "condition_immunities": "poisoned, sleep, charmed, frightened, stunned, paralyzed, disease",
+        "senses": "passive perception 20, truesight 60 ft",
+        "languages": "Common",
+        "cr": 20,
+        "traits": [
+          {
+            "name": "Legendary Resistance.",
+            "desc": "Once per long rest, when Gharmonde fails a saving throw, they can choose to succeed on it instead."
+          },
+          {
+            "name": "Action Surge.",
+            "desc": "Twice per long rest, Gharmonde can take two actions on their turn instead of one."
+          },
+          {
+            "name": "Nine Minds.",
+            "desc": "Gharmonde has the mental resistance of nine combined minds, so they have advantage on all Intelligence, Wisdom, and Charisma saving throws, and resistance to psychic damage. Additionally, they can concentrate on two spells at once. Finally, they act on two initiative counts in combat."
+          },
+          {
+            "name": "Unwavering Commitment.",
+            "desc": "Due to Vasiliás’ influence, Gharmonde cannot be swayed from their task via magical means. They are immune to all charm and fear effects."
+          }
+        ],
+        "spells": [
+          "Gharmonde is a 15th level spellcaster. Their spellcasting ability modifier is Intelligence (+11 spell attack, save DC 19)",
+          {
+            "Cantrips (at-will)": "Shape Water, Misty Step, Gaseous Form, Ice Knife (3rd level), Fog Cloud, Command"
+          },
+          {
+            "(3/day each)": "Cone of Cold (5th level), Wall of Ice, Dispel Magic (5th level), Counterspell (5th level)"
+          },
+          {
+            "(2/day each)": "Shield, Wall of Stone, Raulothim's Psychic Lance, Suggestion, Steel Wind Strike, Thunder Step (5th level)"
+          },
+          {
+            "(1/day each)": "Earthquake, Maze, Slow, Dominate Person, Freezing Sphere"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Ice Knife.",
+            "desc": "Gharmonde casts Ice Knife at 3rd level."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack.",
+            "desc": "Gharmonde makes two attacks with their Mistwrought Claymore."
+          },
+          {
+            "name": "Mistwrought Claymore.",
+            "desc": "+10 to hit; 2d12 + 6 cold damage, and Gharmonde can choose to coalesce the mistblade into steel. When they do this, the target takes an additional 5d8 slashing damage."
+          }
+        ]
+      }
+    ],
+    [
+      "Red Louie",
+      {
+        "name": "Red Louie",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "(lobster)",
+        "hp": 110,
+        "ac": 18,
+        "stats": [
+          17,
+          12,
+          17,
+          10,
+          12,
+          17
+        ],
+        "skills": [
+          {
+            "Intimidation": 8
+          }
+        ],
+        "saves": [
+          {
+            "Dexterity": 6
+          }
+        ],
+        "damage_resistances": "fire",
+        "cr": 16,
+        "languages": "Common, Liameni",
+        "speed": "30 feet, swim 40 feet",
+        "actions": [
+          {
+            "name": "Double-Barreled Shotgun.",
+            "desc": "Two attacks at the same target; +9 to hit; 3d8 + 2 piercing damage."
+          },
+          {
+            "name": "Claws.",
+            "desc": "+9 to hit; 2d6 + 3 slashing damage."
+          }
+        ]
+      }
+    ],
+    [
+      "Mobster Lobster",
+      {
+        "name": "Mobster Lobster",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "(lobster)",
+        "hp": 60,
+        "ac": 17,
+        "stats": [
+          14,
+          16,
+          14,
+          8,
+          12,
+          12
+        ],
+        "saves": null,
+        "skillsaves": [
+          {
+            "Perception": 6
+          },
+          {
+            "Intimidation": 6
+          }
+        ],
+        "languages": "Common, Liameni",
+        "cr": 13,
+        "actions": [
+          {
+            "name": "Shotgun",
+            "desc": "+10 to hit; 3d8 + 3 piercing damage."
+          },
+          {
+            "name": "Claws.",
+            "desc": "+8 to hit; 2d6 + 3 slashing damage."
+          }
+        ]
+      }
+    ],
+    [
+      "Aspect of Kalruk (Eviana's Wildfire Spirit)",
+      {
+        "name": "Aspect of Kalruk (Eviana's Wildfire Spirit)",
+        "size": "Small",
+        "type": "elemental",
+        "hp": 75,
+        "ac": 13,
+        "speed": "30 ft, fly 30 ft",
+        "stats": [
+          10,
+          14,
+          14,
+          13,
+          15,
+          10
+        ],
+        "damage_immunities": "fire",
+        "condition_immunities": "charmed, frightened, grappled, prone, restrained",
+        "senses": "darkvision 60 ft, passive perception 12",
+        "cr": 15,
+        "actions": [
+          {
+            "name": "Flame Seed.",
+            "desc": "ranged weapon attack, range 60 ft; +10 to hit, 1d6 + 5 fire damage."
+          },
+          {
+            "name": "Fiery Teleportation.",
+            "desc": "The spirit and each willing creature of your choice within 5 feet of it teleport up to 15 feet to unoccupied spaces you can see. Then each creature within 5 feet of the space that the spirit left must succeed on a DC 18 Dexterity saving throw or take 1d6 + 5 fire damage."
+          }
+        ]
+      }
+    ],
+    [
+      "Thundering Greatwarden Mairuna",
+      {
+        "name": "Thundering Greatwarden Mairuna",
+        "size": "Gargantuan",
+        "type": "celestial beast",
+        "subtype": "(elk),",
+        "alignment": "chaotic neutral",
+        "hp": 477,
+        "ac": "22 (natural armor)",
+        "speed": "100 feet",
+        "stats": [
+          29,
+          20,
+          27,
+          19,
+          23,
+          25
+        ],
+        "saves": [
+          {
+            "Strength": 17
+          },
+          {
+            "Constitution": 16
+          },
+          {
+            "Wisdom": 14
+          },
+          {
+            "Charisma": 15
+          }
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 25
+          },
+          {
+            "Insight": 14
+          },
+          {
+            "Intimidation": 15
+          },
+          {
+            "Perception": 14
+          },
+          {
+            "Persuasion": 15
+          },
+          {
+            "Religion": 12
+          }
+        ],
+        "damage_resistances": "radiant, necrotic, poison; piercing, slashing, and bludgeoning from nonmagical weapons",
+        "damage_immunities": "thunder",
+        "condition_immunities": "charmed, exhaustion, frightened",
+        "languages": "Common, Liameni, Celestial, Otmanx",
+        "cr": 28,
+        "traits": [
+          {
+            "name": "Freedom of Movement.",
+            "desc": "Mairuna is innately under the effects of the Freedom of Movement spell."
+          },
+          {
+            "name": "Magic Resistance.",
+            "desc": "Mairuna has advantage on saving throws against spells and magical effects."
+          },
+          {
+            "name": "Regrowth.",
+            "desc": "Mairuna regenerates 10 HP at the beginning of each of her turns."
+          },
+          {
+            "name": "Aura of Verdance.",
+            "desc": "The area within 100 feet of Mairuna is filled with lush, flowery plant growth, causing it to be difficult terrain."
+          },
+          {
+            "name": "Charging Ram.",
+            "desc": "If Mairuna has moved more than 50 feet on her turn, her attacks are at advantage, and her horns attacks are critical hits on a hit."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack.",
+            "desc": "Mairuna makes two Hooves attacks and a Horns attack."
+          },
+          {
+            "name": "Horns.",
+            "desc": "Range 25 feet, +17 to hit; 4d10 + 9 piercing damage. The target must succeed on a DC 22 Strength saving throw or be pushed 40 feet and knocked prone."
+          },
+          {
+            "name": "Hooves.",
+            "desc": "Range 10 feet, +17 to hit; 3d8 + 9 bludgeoning damage."
+          },
+          {
+            "name": "Thunderwave Leap (recharge 5,6).",
+            "desc": "Each creature and object within 100 feet of Mairuna must roll a DC 22 Constitution saving throw. On a failure, the creature takes 12d8 thunder damage; half damage on a success."
+          }
+        ]
+      }
+    ],
+    [
+      "Mairuna, Thunderous Voice of the God-Tree",
+      {
+        "name": "Mairuna, Thunderous Voice of the God-Tree",
+        "size": "Medium",
+        "type": "celestial",
+        "subtype": "(planetar),",
+        "alignment": "lawful neutral",
+        "cr": 22,
+        "ac": 20,
+        "hp": 300,
+        "stats": [
+          20,
+          20,
+          24,
+          19,
+          23,
+          25
+        ],
+        "skillsaves": [
+          {
+            "Insight": 13
+          },
+          {
+            "Intimidation": 14
+          },
+          {
+            "Perception": 13
+          },
+          {
+            "Persuasion": 14
+          },
+          {
+            "Religion": 11
+          }
+        ],
+        "saves": [
+          {
+            "Constitution": 13
+          },
+          {
+            "Wisdom": 12
+          },
+          {
+            "Charisma": 13
+          }
+        ],
+        "damage_resistances": "radiant, thunder, necrotic, poison; piercing, slashing, and bludgeoning from nonmagical weapons",
+        "condition_immunities": "charmed, exhaustion, frightened, disease",
+        "languages": "Common, Liameni, Celestial, Otmanx",
+        "speed": "30 ft, fly 40 ft",
+        "spells": [
+          "Mairuna's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components.",
+          {
+            "(At will)": "Detect Evil and Good, Invisibility (self target only), Plant Growth, Druidcraft, Sacred Flame, Thunderwave"
+          },
+          {
+            "(3/day each)": "Blade Barrier, Dispel Evil and Good, Flame Strike"
+          },
+          {
+            "(2/day each)": "Silvery Barbs"
+          },
+          {
+            "(1/day each)": "Commune, Control Weather, Insect Plague"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Insight of the God-Tree.",
+            "desc": "Mairuna has advantage on Insight and Perception checks."
+          },
+          {
+            "name": "Regeneration.",
+            "desc": "At the beginning of each turn, Mairuna regenerates 5 HP."
+          },
+          {
+            "name": "Aura of Sheltering Boughs (While above 200 HP).",
+            "desc": "At the beginning of Mairuna's turn, she may have one ally within 60 feet of her regain 10 HP."
+          },
+          {
+            "name": "Aura of Wrath (While below 200 HP).",
+            "desc": "Allies within 60 feet of Mairuna deal an additional 2d8 thunder damage with weapon attacks."
+          },
+          {
+            "name": "Angelic Weapons.",
+            "desc": "Mairuna's weapon attacks are magical. When she hits with any weapon, the weapon deals an extra 5d8 radiant damage (included in attacks)."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack.",
+            "desc": "Mairuna makes two attacks with the Orchidscythe, or two Verdict attacks."
+          },
+          {
+            "name": "Orchidscythe.",
+            "desc": "range 5 feet; +14 to hit; 2d4 + 7 slashing damage plus 5d8 radiant damage."
+          },
+          {
+            "name": "Verdict of the Justiciar.",
+            "desc": "ranged spell attack; +15 to hit; 3d10 + 7 thunder damage."
+          },
+          {
+            "name": "Cleanse Thine Minds With Holy Light (recharge 5,6)",
+            "desc": "Each creature who can hear Mairuna must succeed on a DC 22 Wisdom saving throw or take 8d6 psychic damage. Additionally, If they failed the saving throw by 10 or more, they are blinded until the end of Mairuna's next turn."
+          },
+          {
+            "name": "Kneel Before the Queen (1/day).",
+            "desc": "Mairuna channels the booming, godly voice of the God-Tree directly, commanding all within range to kneel. Each enemy who can hear Mairuna within 300 feet must succeed on a DC 22 Wisdom saving throw or fall prone and be frightened of Mairuna and her allies for 1 minute (creatures immune to the frightened effect are immune to this effect). Additionally, creatures within earshot must succeed on a Constitution saving throw or take 6d12 thunder damage (half damage on a success). Creatures who failed the Wisdom saving throw have disadvantage on the Constitution saving throw. This damage ingores all resistance and immunities."
+          },
+          {
+            "name": "Bleed Thy Sinful Blood (1/day while under 200 HP).",
+            "desc": "Mairuna traces an ancient rune of the God-Tree that causes all sinners within sight to bleed severely. Every sinned creature within 120 feet of Mairuna must succeed on a DC 22 Charisma saving throw or be afflicted by the Malediction of Bleeding. Upon failing the saving throw, if the target has more than half of their hit dice, they go down to half their hit dice. If the target has more than half of their hit points, they go down to half their hit points. Addtionally, whenever they take slashing damage, they are subject to a bleeding effect where they lose 1d4 HP at the start of their turn. An action can be used to stop the bleeding, and it stacks. These hit dice and hit points cannot be recovered unless a Heal/Wish/Greater Restoration spell of 7th level or higher is used."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Malediction of Kalruk's Fury (1/day).",
+            "desc": "Mairuna takes 10 points damage that cannot be prevented or resisted. The she confers the following benefits to herself one of her allies. A creature can only benefit from one malediction at a time, and they last 1 minute, or until the target drops to 0 hit points. The target has immunity to fire damage, a fly speed equal to their speed, and 10 temporary HP. Whenever they score a critical hit with an attack, the attack deals an additional 5d10 fire damage."
+          },
+          {
+            "name": "Malediction of Belanius' Fury (1/day).",
+            "desc": "Mairuna takes 10 points damage that cannot be prevented or resisted. The she confers the following benefits to herself one of her allies. A creature can only benefit from one malediction at a time, and they last 1 minute, or until the target drops to 0 hit points. The target has immunity to acid damage, a +2 bonus to AC, and can disengage as a bonus action. Whenever the target hits with a melee attack, they can slide the target 5 feet."
+          },
+          {
+            "name": "Malediction of Zamadross' Fury (1/day).",
+            "desc": "Mairuna takes 10 points damage that cannot be prevented or resisted. The she confers the following benefits to herself one of her allies. A creature can only benefit from one malediction at a time, and they last 1 minute, or until the target drops to 0 hit points. The target has immunity to cold damage, advantage on Intelligence, Wisdom, and Charisma saving throws, and whenever they take the attack action, can take an additional attack as a free action."
+          },
+          {
+            "name": "Malediction of Da Katavu's Fury (1/day).",
+            "desc": "Mairuna takes 10 points damage that cannot be prevented or resisted. The she confers the following benefits to herself one of her allies. A creature can only benefit from one malediction at a time, and they last 1 minute, or until the target drops to 0 hit points. The target has immunity to radiant damage, can score a critical hit on a roll of 16-20, and can gains 3 uses of Silvery Barbs to use during the duration of the feature."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Petal Dance (recharge [5][6]).",
+            "desc": "Mairuna can use her reaction to being hit to force the target to make a DC 22 Wisdom saving throw. On a failure, the target is confused by Mairuna's petal dance, and the attack is redirected to a new target within 5 feet of the attacker."
+          }
+        ]
+      }
+    ],
+    [
+      "Eviana, Pontiff of Pine",
+      {
+        "name": "Eviana, Pontiff of Pine",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "Aasimar",
+        "alignment": "Lawful neutral",
+        "ac": 17,
+        "hp": "13d8 + 50",
+        "speed": 30,
+        "stats": [
+          10,
+          16,
+          17,
+          13,
+          20,
+          9
+        ],
+        "saves": [
+          {
+            "wisdom": 6
+          },
+          {
+            "intelligence": 6
+          },
+          {
+            "dexterity": 8
+          }
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 5
+          },
+          {
+            "Herbalism": 6
+          },
+          {
+            "Nature": 6
+          },
+          {
+            "Perception": 10
+          }
+        ],
+        "damage_vulnerabilities": null,
+        "damage_resistances": "radiant, necrotic, poison",
+        "damage_immunities": "fire",
+        "condition_immunities": null,
+        "senses": "passive perception 20, darkvision 60 ft",
+        "languages": "Common, Liameni",
+        "cr": 13,
+        "spells": [
+          "Eviana is a 14th-level spellcaster. Wisdom is her spellcasting ability. She can prepare 19 spells from the druid spell list after a long rest. These are her most common picks, although they can change from day to day.",
+          {
+            "Cantrips (at-will)": "Guidance, Druidcraft, Primal Savagery, Fire Bolt"
+          },
+          {
+            "1st level (4 slots)": "Burning Hands, Cure Wounds, Faerie Fire, Healing Word, Entangle"
+          },
+          {
+            "2nd level (4 slots)": "Flaming Sphere, Scorching Ray, Enlarge/Reduce, Heat Metal"
+          },
+          {
+            "3rd level (3 slots)": "Plant Growth, Fireball, Aura of Vitality, Call Lightning"
+          },
+          {
+            "4th level (3 slots)": "Aura of Life, Fire Shield, Conjure Minor Elementals, Elemental Bane, Polymorph"
+          },
+          {
+            "5th level (3 slots)": "Flame Strike, Mass Cure Wounds, Greater Restoration, Summon Draconic Spirit, Scrying"
+          },
+          {
+            "6th level (2 slots)": "Investiture of Flame, Heal, Sunbeam"
+          },
+          {
+            "7th level (2 slots)": "Fire Storm, Draconic Transformation"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Wild Shape (2/rest).",
+            "desc": "As the druid feature, Wild Shape."
+          },
+          {
+            "name": "Summon Wildfire Spirit.",
+            "desc": "As the druid feature, Summon Wildfire Spirit (see below)."
+          },
+          {
+            "name": "Blazing Revival (1/day).",
+            "desc": "If the spirit is within 120 feet of you when you are reduced to 0 hit points and thereby fall unconscious, you can cause the spirit to drop to 0 hit points. You then regain half your hit points and immediately rise to your feet."
+          },
+          {
+            "name": "Enhanced Bond.",
+            "desc": "Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus equal to the number rolled to one damage or healing roll of the spell.In addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit."
+          }
+        ],
+        "actions": null,
+        "reactions": [
+          {
+            "name": "Cauterizing Flames (5/day)",
+            "desc": "When a Small or larger creature dies within 30 feet of you or your wildfire spirit, a harmless spectral flame springs forth in the dead creature's space and flickers there for 1 minute. When a creature you can see enters that space, you can use your reaction to extinguish the spectral flame there and either heal the creature for 2d10 + 5 HP or deal that much fire damage to it."
+          }
+        ]
+      }
+    ],
+    [
+      "Imbrastus, Pontiff of Sage",
+      {
+        "name": "Imbrastus, Pontiff of Sage",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "(Aasimar),",
+        "alignment": "Neutral",
+        "ac": "14 (studded leather)",
+        "hp": "13d8 + 34",
+        "speed": 30,
+        "stats": [
+          9,
+          15,
+          14,
+          17,
+          20,
+          10
+        ],
+        "saves": [
+          {
+            "intelligence": 8
+          },
+          {
+            "wisdom": 10
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 8
+          },
+          {
+            "History": 13
+          },
+          {
+            "Nature": 8
+          },
+          {
+            "Religion": 13
+          }
+        ],
+        "damage_vulnerabilities": null,
+        "damage_resistances": "radiant, necrotic, poison",
+        "damage_immunities": null,
+        "condition_immunities": null,
+        "senses": "passive perception 13, darkvision 60 ft",
+        "languages": "Common, Liameni",
+        "cr": 10,
+        "traits": [
+          {
+            "name": "Potent Spellcasting.",
+            "desc": "Imbrastus gets +5 to damage rolls for cantrips."
+          }
+        ],
+        "spells": [
+          "Imbrastus is an 14th level spellcaster. Wisdom is his spellcasting ability. He can prepare 19 spells from the cleric spell list after a long rest. These are his most common picks, although they can change from day to day.",
+          {
+            "Cantrips (at-will)": "Guidance, Thaumaturgy, Light, Sacred Flame, Word of Radiance"
+          },
+          {
+            "1st level (4 slots)": "Command, Identify, Ceremony, Sanctuary, Healing Word, Silvery Barbs"
+          },
+          {
+            "2nd level (4 slots)": "Augury, Suggestion, Borrowed Knowledge, Enhance Ability"
+          },
+          {
+            "3rd level (3 slots)": "Nondetection, Speak with Dead, Clairvoyance, Dispel Magic, Sending, Spirit Guardians"
+          },
+          {
+            "4th level (3 slots)": "Arcane Eye, Confusion, Locate Creature, Freedom of Movement"
+          },
+          {
+            "5th level (3 slots)": "Legend Lore, Scrying, Circle of Power, Commune, Greater Restoration"
+          },
+          {
+            "6th level (2 slots)": "Word of Recall, Heal"
+          },
+          {
+            "7th level (2 slots)": "Divine Word, Regenerate"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Channel Divinity Read Thoughts.",
+            "desc": "Choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest. If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute. During that time, you can use your action to end this effect and cast the Suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell."
+          },
+          {
+            "name": "Divine Intervention (1/rest).",
+            "desc": "Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than 15, your deity intervenes."
+          },
+          {
+            "name": "Dagger.",
+            "desc": "range 5 ft; +7 to hit; 1d4 + 2 piercing damage."
+          }
+        ]
+      }
+    ],
+    [
+      "Rohanin, Pontiff of Rose",
+      {
+        "name": "Rohanin, Pontiff of Rose",
+        "size": "Medium",
+        "type": "humanoid",
+        "subtype": "(Aasimar),",
+        "alignment": "Lawful neutral",
+        "ac": "21 (mithril plate, shield)",
+        "hp": "12d10 + 36",
+        "speed": 30,
+        "stats": [
+          18,
+          15,
+          14,
+          10,
+          12,
+          20
+        ],
+        "saves": [
+          {
+            "Strength": 9
+          },
+          {
+            "Dexterity": 7
+          },
+          {
+            "Constitution": 7
+          },
+          {
+            "Intelligence": 5
+          },
+          {
+            "Wisdom": 11
+          },
+          {
+            "Charisma": 14
+          }
+        ],
+        "skillsaves": [
+          {
+            "Insight": 6
+          },
+          {
+            "Persuasion": 9
+          }
+        ],
+        "damage_vulnerabilities": null,
+        "damage_resistances": "radiant, necrotic, poison",
+        "damage_immunities": null,
+        "condition_immunities": "frightened",
+        "senses": "passive perception 11, darkvision 60 ft",
+        "languages": "Common, Liameni",
+        "cr": 15,
+        "spells": [
+          "Rohanin is a 15th-level half-spellcaster. Charisma is his spellcasting ability (+10, DC 18).",
+          {
+            "Cantrips (at-will)": "Druidcraft, Thorn Whip"
+          },
+          {
+            "1st level (4 slots)": "Compelled Duel, Cure Wounds, Bless, Ensnaring Strike, Charm Person"
+          },
+          {
+            "2nd level (3 slots)": "Spike Growth, Lesser Restoration, Zone of Truth, Locate Object"
+          },
+          {
+            "3rd level (3 slots)": "Remove Curse, Beacon of Hope, Plant Growth, Dispel Magic"
+          },
+          {
+            "4th level (2 slots)": "Banishment, Death Ward, Staggering Smite"
+          }
+        ],
+        "traits": [
+          {
+            "name": "Carrier of the Sacred Blade.",
+            "desc": "While he is alive, nothing, no spell, magical effect, or physical effect can force Rohanin to drop, give up, or in any other way relinquish Dianthus. This includes charm spells, disarming attacks, heat metal, etc."
+          },
+          {
+            "name": "Rosethorn Armor.",
+            "desc": "Whenever Rohanin is hit by a melee attack, the attacker must roll a Dexterity saving throw of DC 18. On a failure the creature takes 1d8 + 4 piercing damage."
+          },
+          {
+            "name": "Charm Resistance.",
+            "desc": "Rohanin has advantage on saving throws against charm and fear effects."
+          },
+          {
+            "name": "Paladin Aura (Warding, Protection, Courage).",
+            "desc": "Rohanin and friendly creatures within 10 feet of him gain +5 to saving throws, are immune to being frightened, and have resistance to damage from spells."
+          },
+          {
+            "name": "Lay on Hands.",
+            "desc": "As the Paladin feature, Lay on Hands. Pool of 75 HP."
+          },
+          {
+            "name": "Divine Smite.",
+            "desc": "When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend, to a maximum of 6d8."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack.",
+            "desc": "Rohanin makes two attacks with Dianthus."
+          },
+          {
+            "name": "Dianthus, Sword of Sealing.",
+            "desc": "+10 to hit, reach 5 ft, one target, 1d8 + 6 slashing damage plus 1d8 radiant damage."
+          },
+          {
+            "name": "Cleansing Touch (5/day).",
+            "desc": "Rohanin ends one spell on himself or a willing creature he touches."
+          },
+          {
+            "name": "Channel Divinity (Sacred Weapon) (2/rest).",
+            "desc": "For 1 minute, Rohanin adds +5 to attack rolls made with Dianthus. The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. You can end this effect on your turn as part of any other action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends."
+          }
+        ]
+      }
+    ]
+  ],
+  "layouts": [],
+  "default": "Basic 5e Layout",
+  "useDice": true,
+  "renderDice": false,
+  "export": true,
+  "showAdvanced": false,
+  "version": {
+    "major": 2,
+    "minor": 20,
+    "patch": 0
+  },
+  "paths": [
+    "/"
+  ],
+  "autoParse": false,
+  "disableSRD": false,
+  "tryToRenderLinks": true,
+  "debug": false,
+  "path": "/"
+}

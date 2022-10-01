@@ -1,0 +1,26 @@
+{
+  "matches": [
+    {
+      "path": "Septus Somnis",
+      "scope": "Read & Edit",
+      "classes": [
+        "TTRPG"
+      ]
+    },
+    {
+      "path": "Example Path/Subfolder/",
+      "classes": [
+        "example-class"
+      ],
+      "scope": "Read"
+    },
+    {
+      "tag": "#ExampleTag",
+      "classes": [
+        "another-class"
+      ],
+      "scope": "Edit"
+    }
+  ],
+  "version": "2.2.0"
+}

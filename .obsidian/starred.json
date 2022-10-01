@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Home",
+      "path": "Home.md"
+    },
+    {
+      "type": "file",
+      "title": "Lighting",
+      "path": "Lighting.md"
+    },
+    {
+      "type": "file",
+      "title": "SSS11 (Finale)",
+      "path": "Septus Somnis/Sessions/SSS11 (Finale).md"
+    },
+    {
+      "type": "file",
+      "title": "Reefrot",
+      "path": "Septus Somnis/Places of Note/Reefrot.md"
+    },
+    {
+      "type": "file",
+      "title": "Da Sonhe",
+      "path": "Septus Somnis/Biomes/Da Sonhe.md"
+    }
+  ]
+}
